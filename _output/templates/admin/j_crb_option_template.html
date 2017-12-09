@@ -1,0 +1,20 @@
+<xf:formrow
+	label="{$option.title}"
+	hint="{$hintHtml}"
+	explain="{$explainHtml}"
+	html="{$listedHtml}">
+
+	<ul class="inputChoices inputChoices--noChoice">
+		<li class="inputChoices-choice">
+			<div>{{ phrase('j_crb_geoip_header:') }}</div>
+			<xf:textbox name="{$inputName}[geoIpHeader]" value="{$option.option_value.geoIpHeader}" />
+			<dfn class="inputChoices-explain">{{ phrase('j_crb_geoip_header_explain') }}</dfn>
+		</li>
+
+		<li class="inputChoices-choice">
+			<div>{{ phrase('j_crb_disallowed_countries:') }}</div>
+			<xf:textarea name="{$inputName}[disallowedCountries]" value="{$option.option_value.disallowedCountries}" autosize="true" />
+			<dfn class="inputChoices-explain">{{ phrase('j_crb_disallowed_countries_explain') }}</dfn>
+		</li>
+	</ul>
+</xf:formrow>

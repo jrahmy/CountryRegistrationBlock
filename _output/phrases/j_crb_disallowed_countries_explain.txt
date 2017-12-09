@@ -1,0 +1,1 @@
+Enter the country codes of countries that are not allowed to register. Place each country code on a separate line.

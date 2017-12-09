@@ -1,0 +1,1 @@
+Enter the HTTP GeoIP header containing the visitor's country code. For CloudFlare-enabled websites, this would be 'HTTP_CF_IPCOUNTRY'.

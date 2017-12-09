@@ -1,0 +1,17 @@
+<xf:if is="$xf.options.contactUrl.type == 'default'">
+	{{
+		phrase('j_crb_notice_blocked_text_contact', {
+			'contact_url': link('misc/contact'),
+			'link_params': 'data-xf-click="overlay"'
+		})
+	}}
+<xf:elseif is="$xf.options.contactUrl.type == 'custom'" />
+	{{
+		phrase('j_crb_notice_blocked_text_contact', {
+			'contact_url': $xf.options.contactUrl.custom,
+			'link_params': $xf.options.contactUrl.overlay ? 'data-xf-click="overlay"' : ''
+		})
+	}}
+<xf:else />
+	{{ phrase('j_crb_notice_blocked_text_no_contact') }}
+</xf:if>

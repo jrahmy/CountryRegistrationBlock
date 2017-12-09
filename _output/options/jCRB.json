@@ -1,0 +1,15 @@
+{
+    "edit_format": "template",
+    "edit_format_params": "j_crb_option_template",
+    "data_type": "array",
+    "sub_options": [
+        "geoIpHeader",
+        "disallowedCountries"
+    ],
+    "validation_class": "",
+    "validation_method": "",
+    "default_value": "{\"geoIpHeader\":\"GEOIP_COUNTRY_CODE\",\"disallowedCountries\":\"\"}",
+    "relations": {
+        "usersAndRegistration": 340
+    }
+}
