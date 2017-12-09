@@ -1,0 +1,9 @@
+{
+    "event_id": "notices_setup",
+    "execute_order": 10,
+    "callback_class": "Jrahmy\\CountryRegistrationBlock\\Listener",
+    "callback_method": "noticesSetup",
+    "active": true,
+    "hint": "",
+    "description": "Appends a notice to the notice list if a guest user is visiting from a blocked country"
+}

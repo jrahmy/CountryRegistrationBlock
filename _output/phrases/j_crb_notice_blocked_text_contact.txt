@@ -1,0 +1,1 @@
+Account registrations from your country have been blocked due to spam. If you wish to create an account, please <a href="{contact_url}" {link_params}>contact us</a>.
