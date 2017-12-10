@@ -44,7 +44,11 @@ class Listener
 
             if (!empty($_SERVER[$geoIpHeader])) {
                 $country = $_SERVER[$geoIpHeader];
-                $blockedCountries = preg_split('/\r?\n/', $disallowedCountries);
+                $blockedCountries = preg_split(
+                    '/\r?\n/',
+                    $disallowedCountries,
+                    PREG_SPLIT_NO_EMPTY
+                );
 
                 static::$countryBlocked = in_array($country, $blockedCountries);
             }
