@@ -2,21 +2,21 @@
     "legacy_addon_id": "",
     "title": "Country Registration Block",
     "description": "Allows administrators to block countries from registering.",
-    "version_id": 1000170,
-    "version_string": "1.0.1",
+    "version_id": 1000270,
+    "version_string": "1.0.2",
     "dev": "Jeremy P",
     "dev_url": "https://xenforo.com/community/members/jeremy-p.450/",
     "faq_url": "",
     "support_url": "",
     "extra_urls": [],
     "require": {
-        "XF": [
-            "2000010",
-            "XenForo 2.0.0+"
-        ],
         "php": [
-            "5.4.0",
-            "PHP 5.4.0+"
+            "5.6.0",
+            "PHP 5.6.0+"
+        ],
+        "XF": [
+            "2010010",
+            "XenForo 2.1.0+"
         ]
     },
     "icon": "fa-ban"

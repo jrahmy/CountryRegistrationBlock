@@ -4,7 +4,7 @@ This add-on allows administrators to block countries from registering.
 
 GeoIP headers supplying the visitor's country code must be available. The exact
 header name to use is configurable. For CloudFlare-enabled websites, this would
-be 'HTTP_CF_IPCOUNTRY'.
+be `HTTP_CF_IPCOUNTRY`
 
 --------------------------------------------------------------------------------
 
