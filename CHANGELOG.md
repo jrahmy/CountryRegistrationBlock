@@ -1,6 +1,11 @@
 Changelog
 =========
 
+[1.0.3] - 2019-03-26
+--------------------
+### Changed
+- Disable page cache when registration is disabled
+
 [1.0.2] - 2019-03-26
 --------------------
 ### Added

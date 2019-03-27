@@ -46,6 +46,7 @@ class Listener
         }
 
         if (static::$countryBlocked) {
+            \XF\Pub\App::$allowPageCache = false;
             $options->registrationSetup['enabled'] = 0;
         }
     }
